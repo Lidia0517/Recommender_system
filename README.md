@@ -1,5 +1,3 @@
-# Recommender_system
-
 # Movie Recommender System & Revenue Prediction
 
 
