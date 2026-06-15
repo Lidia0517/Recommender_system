@@ -87,9 +87,9 @@ $$Weighted\ Rating = \left(\frac{v}{v + m} \cdot R\right) + \left(\frac{m}{m + v
 ---
 
 ## Օգտագործված Գրադարաններ (Libraries)
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-nltk
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
+* nltk
