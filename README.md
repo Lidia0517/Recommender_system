@@ -36,9 +36,9 @@ $$Weighted\ Rating = \left(\frac{v}{v + m} \cdot R\right) + \left(\frac{m}{v + m
 * **Stemming:** Կիրառվել է NLTK գրադարանի `PorterStemmer`-ը՝ բառերի հիմքերը նորմալացնելու համար:
 * **Վեկտորացում:** `tags` սյունակը վեկտորացվել է `CountVectorizer`-ի օգնությամբ (վերցվել են թոփ 5000 բառերը, իսկ անգլերենի stop words-ը հեռացվել են):
 * **Նմանության հաշվարկ:** Հաշվարկվել է զույգ առ զույգ կոսինուսային նմանությունը (**Cosine Similarity**) բոլոր ֆիլմերի վեկտորների միջև:
-* 
-* $$\cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} \sqrt{\sum_{i=1}^{n} B_i^2}}$$
-* 
+  
+$$\cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} \sqrt{\sum_{i=1}^{n} B_i^2}}$$
+
 * **Ֆունկցիա:** Ստեղծվել է `recommend(movie)` ֆունկցիա, որը վերադարձնում է տվյալ ֆիլմին ամենանման թոփ 10 ֆիլմերը:
 
 ### 4. Եկամտի կանխատեսում KNN-ի միջոցով (Revenue Prediction)
