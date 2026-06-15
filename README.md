@@ -1,4 +1,4 @@
-# Movie Recommender System & Revenue Prediction
+ # Movie Recommender System & Revenue Prediction
 
 
 TMDB 5000 ֆիլմերի տվյալների բազայի հիման վրա՝ այս նախագիծն ուսումնասիրում է ֆիլմերի առաջարկման (movie recommendation) երկու մոտեցում և կիրառում է KNN մոդելը՝ ֆիլմի եկամուտը կանխատեսելու համար։
